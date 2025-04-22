@@ -5,7 +5,7 @@ This repo holds supporting documentation for proposals submitted to the Sneed DA
 There are no known active proposals being tracked in this repo at the moment.
 
 ## Active Proposal Groups
-- XB0 is preparing the [Motion To Start](propGroups/xb0.0_motionToStart.md)
+- XB0 is preparing the [Motion To Start](propGroups/xb0_SonicSwapLPMove/xb0.0_motionToStart.md)
 
 ## Previous Proposals & Proposal Groups
 There are no previously completed proposals or proposal groups tracked in this repo.
