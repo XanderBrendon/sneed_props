@@ -4,7 +4,8 @@ Each Task box is a Sneed DAO proposal that will need to be passed.
 ## Stage 0
 - Research information on interacting with Sonic canisters
   - Status: Active
-- [ ] Submit Motion Proposal To begin XB0 with Plan of Action for Sneed DAO Consideration
+- [ ] Submit Motion Proposal to begin XB0 with Plan of Action for Sneed DAO Consideration
+  - [Proposal Details (xb0.0_motionToStart.md)](xb0.0_motionToStart.md)
   - Status: Preparing
 
 ## Stage 1
