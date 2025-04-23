@@ -1,5 +1,5 @@
 # sneed_props
-This repo holds supporting documentation for proposals submitted to the Sneed DAO SNS (specifically proposals by me, but anyone in the community is welcome to contribute). This readme file will index into active and previous proposals tracked by this repo.
+This repo holds supporting documentation for proposals submitted to the Sneed DAO SNS (specifically proposals by me, but the community is encouraged to utilize the space to track and support proposals they submit). This readme file will index into active and previous proposals tracked by this repo. Contributors are expected to keep the index up to date as they work on proposals.
 
 ## Active Proposals
 There are no known active Sneed proposals being tracked in this repo at the moment.
