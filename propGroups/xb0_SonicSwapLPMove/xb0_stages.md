@@ -1,19 +1,21 @@
 # Stages
-Each Task box is a Sneed DAO proposal that will need to be passed.
+Each Task box is a Sneed DAO proposal that will need to be passed. Some later stages may need to be broken into additional individual proposals.
 
 ## Stage 0
 - Research information on interacting with Sonic canisters
-  - Status: Active
+  - Status: Complete
 - [ ] Submit Motion Proposal to begin XB0 with Plan of Action for Sneed DAO Consideration
   - [Proposal Details (xb0.0_motionToStart.md)](xb0.0_motionToStart.md)
-  - Status: Preparing
+  - Status: In progress
+
+> Useful reading for understanding this process https://internetcomputer.org/docs/building-apps/governing-apps/managing/making-proposals#generic-proposals
 
 ## Stage 1
 
 Goal: Claim and gain DAO access to Sonic LP fees as test of capability of access to funds.
 
 - Attempt to claim LP fees from Sonic into the pool to verify pool interaction.
-  - [ ] Update Sneed defi canister with new code to validate claim parameters
+  - [ ] Update Sneed defi canister with new code to validate claim parameters (preperatory step for adding generic function)
     - Status: Preparing
   - [ ] Add claim as a callable generic function
   - [ ] Call claim function

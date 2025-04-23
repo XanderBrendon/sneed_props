@@ -12,6 +12,9 @@ The proposal group is broken down into many individual steps to try and make the
 
 The stages of XB0 are outlined in the [Stages (xb0_stages.md)](xb0_stages.md) file. Sneed voters are encouraged to read into these more detailed files to understand upcoming proposals, help us catch any mistakes early, provide feedback and ideas, and help us proceed with this plan in a timely manner (assuming community consensus).
 
+## Got any more details?
+The reasearch and learning folder under this proposal group has some results and instructions for validating my investigations into the [sonic canisters](/propGroups/xb0_SonicSwapLPMove/research_and_learning/sonic_canisters.md).
+
 ## What your vote right now is deciding
 This motion proposal is for the community to decide if the plan of action laid out here should be executed on as planned through stage 1 of the outlined process (for the DAO to claim fees earned from the Sonic LP pool).
 
