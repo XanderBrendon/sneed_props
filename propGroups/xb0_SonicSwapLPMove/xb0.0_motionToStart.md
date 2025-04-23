@@ -1,7 +1,7 @@
 # Motion Proposal to Begin Execution of XB0 Stage 1
 
 ## What is it?
-Sneed Diamond Club members have expressed interest in discord chat at the idea of moving Sneed/ICP tokens that are in Sonic liquidity pools out of Sonic and into ICPSwap liquidity pools. Because this is a multistep process, the goal will be collected under a series of proposals referred to here as XB0 for ease of reference. Stage 1 involves claiming fees from the Sonic LP pool and withdrawing them to prove capability of interacting with the pool.
+Sneed Diamond Club members have expressed interest in discord chat at the idea of moving Sneed/ICP tokens that are in Sonic liquidity pools out of Sonic and into ICPSwap liquidity pools. Because this is a multistep process, the goal will be achieved through a series of proposals referred to here as XB0 for ease of reference. Stage 1 involves claiming fees from the Sonic LP pool and withdrawing them to prove capability of interacting with the pool.
 
 ## How is it happening?
 This XB0 proposal group aims to map out a plan to execute on this idea in a responsible way that grants Sneed voters the opportunity to provide informed input along the way.

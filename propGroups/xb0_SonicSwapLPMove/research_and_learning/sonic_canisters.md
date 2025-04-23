@@ -81,7 +81,8 @@ Using the icp dashboard interface to interact with the [swap canister](https://d
       - tokensOwed0 is the token0 fee earned by the position owner.
       - tokensOwed1 is the token1 fee earned by the position owner.
     - We can expect a call to claim the fees for this position to result in 2.92041024 Sneed and 35.00693344 (at time of writing. values may adjust slightly as position is still active)
-5) The Sneed controlled Sonic position contains __ Sneed and ___ ICP that we might be able to move back into more accessible forms of liquidity. Unfortunately finding those values has proved challenging and might point towards problems in Sonic's systems. 
+5) The Sneed controlled Sonic position contains .25 Sneed and 6383 ICP that we might be able to move back into more accessible forms of liquidity. 
+    - Finding those values was challenging and there's no guarantees of perfect accuracy. 
     - Tried to again pull some information from icpswap-labs: https://github.com/ICPSwap-Labs/docs/blob/main/02.SwapPool/Liquidity/05.Getting_Amounts_For_Liquidity.md
     - Call ```metadata```
     
@@ -105,5 +106,9 @@ Using the icp dashboard interface to interact with the [swap canister](https://d
     - The ICPSwap-Labs doc has us gather the following information.
     - The sqrtPriceX96 value is ```298_341_050_750_672_022_733_592_503_956```
     - Our position has tickLower: ```12_660```, tickUpper: ```26_520```, liquidity: ```339_138_795_889```
-    - The final step in the ICPSwap-Labs documentation was to utilize a canister to perform price calculations, but it's unclear what to pass to parameters and nothing I've tried has given reasonable results. The canister is located at https://dashboard.internetcomputer.org/canister/phr2m-oyaaa-aaaag-qjuoq-cai and the method in question is getTokenAmountByLiquidity.
-    - Note that the tick value in the metadata call is only 1 away from the tickUpper on the position. It's possible there is a Sonic technical problem lurking here that may get in our way moving forward. I welcome input or ideas from the community on what I might be missing. 
+    - The final step in the ICPSwap-Labs documentation was to utilize a canister to perform price calculations, but it's a little unclear what order to pass to parameters. The canister is located at https://dashboard.internetcomputer.org/canister/phr2m-oyaaa-aaaag-qjuoq-cai and the method in question is getTokenAmountByLiquidity.
+    - By passing the sqrtPriceX96 value for the first nat, tickLower then tickUpper, and finally the liquidity value, I got the following values from the getTokenAmountByLiquidity call: ```(record {amount0=2542394; amount1=638395273993})```
+    - This indicates the lp position is worth .2542394 Sneed and 6383.95273993 ICP
+    - Note that the tick value in the metadata call is only 1 away from the tickUpper on the position. This aligns with the lopsided nature of the position value. 
+    - Another key indicator that the values are close to right is ICPSwap's wallet valuation tool (screenshotted here rather than linked for conveninece since it takes a while to run).
+        ![ICPSwap wallet valuation tool showing ni6 canister holding 6501 ICP and 7.8 Sneed](images/canisterWalletValuation.png)
