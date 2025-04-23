@@ -15,7 +15,7 @@ The stages of XB0 are outlined in the [Stages (xb0_stages.md)](xb0_stages.md) fi
 ## Got any more details?
 The reasearch and learning folder under this proposal group has some results and instructions for validating my investigations into the [sonic canisters](/propGroups/xb0_SonicSwapLPMove/research_and_learning/sonic_canisters.md).
 
-## What your vote right now is deciding
+## What is my vote right now is deciding?
 This motion proposal is for the community to decide if the plan of action laid out here should be executed on as planned through stage 1 of the outlined process (for the DAO to claim fees earned from the Sonic LP pool).
 
 Please vote Yes to Proceed with Stage 1 or vote No if you prefer for the DAO to not attempt to claim Sonic LP fees. Feedback is welcomed via Discord or the preferred method of participating in [Discussions in this github project](https://github.com/XanderBrendon/sneed_props/discussions) for better record keeping.
