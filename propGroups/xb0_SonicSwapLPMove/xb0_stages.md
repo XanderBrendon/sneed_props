@@ -17,7 +17,7 @@ Goal: Claim and gain DAO access to Sonic LP fees as test of capability of access
 
 - Attempt to claim LP fees from Sonic into the pool to verify pool interaction.
   - [X] Update Sneed defi canister with new code to validate claim parameters (preperatory step for adding generic function)
-    - Status: Preparing
+    - Status: [Executed](https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=275)
   - [ ] Add claim as a callable generic function
   - [ ] Call claim function
   - Verify Results
