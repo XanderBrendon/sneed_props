@@ -18,4 +18,6 @@ The reasearch and learning folder under this proposal group has some results and
 ## What is my vote right now is deciding?
 This motion proposal is for the community to decide if the plan of action laid out here should be executed on as planned through stage 1 of the outlined process (for the DAO to claim fees earned from the Sonic LP pool).
 
-Please vote Yes to Proceed with Stage 1 or vote No if you prefer for the DAO to not attempt to claim Sonic LP fees. Feedback is welcomed via Discord or the preferred method of participating in [Discussions in this github project](https://github.com/XanderBrendon/sneed_props/discussions) for better record keeping.
+Please vote Yes to Proceed with Stage 1 or vote No if you prefer for the DAO to not attempt to claim Sonic LP fees. Feedback is welcomed via Discord or the preferred method of participating in [Discussions in this gitlab project](https://gitlab.com/xb-sneed/props/-/wikis/Discussion-Wiki) for better record keeping.
+
+https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=266
