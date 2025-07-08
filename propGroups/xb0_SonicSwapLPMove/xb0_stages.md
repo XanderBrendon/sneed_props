@@ -5,9 +5,9 @@ Each Task box is a Sneed DAO proposal that will need to be passed. Some later st
 - Initial research on interacting with Sonic canisters and the state of the Sonic swap canister holding Sneed/ICP
   - Status: Complete
   - Results under research and learning - [sonic canisters](/propGroups/xb0_SonicSwapLPMove/research_and_learning/sonic_canisters.md)
-- [ ] Submit Motion Proposal to begin XB0 with Plan of Action for Sneed DAO Consideration
+- [X] Submit Motion Proposal to begin XB0 with Plan of Action for Sneed DAO Consideration
   - [Proposal Details (xb0.0_motionToStart.md)](xb0.0_motionToStart.md)
-  - Status: In progress
+  - Status: [Executed](https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=266)
 
 > Useful reading for understanding this process https://internetcomputer.org/docs/building-apps/governing-apps/managing/making-proposals#generic-proposals
 
@@ -16,13 +16,13 @@ Each Task box is a Sneed DAO proposal that will need to be passed. Some later st
 Goal: Claim and gain DAO access to Sonic LP fees as test of capability of access to funds.
 
 - Attempt to claim LP fees from Sonic into the pool to verify pool interaction.
-  - [ ] Update Sneed defi canister with new code to validate claim parameters (preperatory step for adding generic function)
-    - Status: Preparing
+  - [X] Update Sneed defi canister with new code to validate claim parameters (preperatory step for adding generic function)
+    - Status: [Executed](https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=275)
   - [ ] Add claim as a callable generic function
   - [ ] Call claim function
   - Verify Results
 - Withdraw funds for claimed fees to verify token access after withdrawal
-  - [ ] Update Sneed defi canister with new code to validate withdraw parameters
+  - [X] Update Sneed defi canister with new code to validate withdraw parameters
   - [ ] Add withdraw as a callable generic function
   - [ ] Call withdraw
 
