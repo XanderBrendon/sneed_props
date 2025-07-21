@@ -21,8 +21,10 @@ Goal: Claim and gain DAO access to Sonic LP fees as test of capability of access
     - Status: [Executed](https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=275)
   - [X] Add claim as a callable generic function
     - [Proposal Details (xb0.2_addClaimSonicFeeGenericFunction.md)](xb0.2_addClaimSonicFeeGenericFunction.md)
-    - Status: [Open for voting](https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=301)
+    - Status: [Executed](https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=301)
   - [ ] Call claim function
+    - [Proposal Details (xb0.3_callClaimSonicFeeGenericFunction.md)](xb0.3_callClaimSonicFeeGenericFunction.md)
+    - Status: [Open for voting](https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=302)
   - Verify Results
 - Withdraw funds for claimed fees to verify token access after withdrawal
   - [X] Update Sneed defi canister with new code to validate withdraw parameters
