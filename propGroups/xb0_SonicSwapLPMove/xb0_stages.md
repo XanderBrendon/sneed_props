@@ -33,7 +33,11 @@ Goal: Claim and gain DAO access to Sonic LP fees as test of capability of access
     - [Proposal Details (xb0.4_addWithdrawFromSonicGenericFunction.md)](xb0.4_addWithdrawFromSonicGenericFunction.md)
     - Status: [Open for voting](https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=303)
   - [ ] Call withdraw for Sneed
+    - [Proposal Details (xb0.5_callWithdrawSneedFromSonic.md)](xb0.5_callWithdrawSneedFromSonic.md)
+    - Status: [Waiting on 303](https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=303)
   - [ ] Call withdraw for ICP
+    - [Proposal Details (xb0.6_callWithdrawICPFromSonic.md)](xb0.6_callWithdrawICPFromSonic.md)
+    - Status: [Waiting on 303](https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=303)
 
 > Note: Some of these stages could be done in tandem (e.g. updating defi canister with validate for both claim and withdraw), but steps are broken up to ensure any mistakes are only made once and with small impact. 
 
