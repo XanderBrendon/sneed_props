@@ -22,14 +22,18 @@ Goal: Claim and gain DAO access to Sonic LP fees as test of capability of access
   - [X] Add claim as a callable generic function
     - [Proposal Details (xb0.2_addClaimSonicFeeGenericFunction.md)](xb0.2_addClaimSonicFeeGenericFunction.md)
     - Status: [Executed](https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=301)
-  - [ ] Call claim function
+  - [X] Call claim function
     - [Proposal Details (xb0.3_callClaimSonicFeeGenericFunction.md)](xb0.3_callClaimSonicFeeGenericFunction.md)
-    - Status: [Open for voting](https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=302)
-  - Verify Results
+    - Status: [Executed](https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=302)
+  - [X] Verify Results
+    - Sonic canister has increased unused balance for the principal and decreased claimable tokens for the position, indicating success.
 - Withdraw funds for claimed fees to verify token access after withdrawal
   - [X] Update Sneed defi canister with new code to validate withdraw parameters
   - [ ] Add withdraw as a callable generic function
-  - [ ] Call withdraw
+    - [Proposal Details (xb0.4_addWithdrawFromSonicGenericFunction.md)](xb0.4_addWithdrawFromSonicGenericFunction.md)
+    - Status: [Open for voting](https://nns.ic0.app/proposal/?u=fp274-iaaaa-aaaaq-aacha-cai&proposal=303)
+  - [ ] Call withdraw for Sneed
+  - [ ] Call withdraw for ICP
 
 > Note: Some of these stages could be done in tandem (e.g. updating defi canister with validate for both claim and withdraw), but steps are broken up to ensure any mistakes are only made once and with small impact. 
 
