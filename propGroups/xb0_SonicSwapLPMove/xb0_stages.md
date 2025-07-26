@@ -38,21 +38,25 @@ Goal: Claim and gain DAO access to Sonic LP fees as test of capability of access
 > Note: Some of these stages could be done in tandem (e.g. updating defi canister with validate for both claim and withdraw), but steps are broken up to ensure any mistakes are only made once and with small impact. 
 
 ## Stage 2
-Goal: Plan remaining required proposals to pull full liquidity position from Sonic and move to an ICPSwap position. Explore swap position options.
+Revised plan:
+  - In order to simplify the completion of the sonic reclamation process, this proposal group will no longer seek to utilize most of the funds reclaimed and instead will focus on being able to withdraw those funds to the DAO treasury.
+  - Fees generated from the sonic positions will be distributed via the RLL mechanism as this is revenue the DAO has generated.
+  
+Original plan (no longer part of this proposal group):
+>  Goal: Plan remaining required proposals to pull full liquidity position from Sonic and move to an ICPSwap position. Explore swap position options.
+> 
+> - Discuss planned ICPSwap position parameters
+> - [ ] Submit Motion Proposal to continue the process with additional details for next steps
 
-- Discuss planned ICPSwap position parameters
-- [ ] Submit Motion Proposal to continue the process with additional details for next steps
+*Subsequent stages have also been updated to reduce scope of defined goals*
 
 ## Stage 3
-Goal: Withdraw and gain DAO access to tokens in Sonic LP pool. Make final preparations for ICPSwap position changes.
+Goal: Withdraw and gain DAO access to tokens in Sonic LP pool.
 
 - Withdraw full LP position from Sonic
-  - [ ] PlaceHolder for Additional proposals for Stage 3 Work (To be replaced before Stage 2 passes)
-- Prepare for ICPSwap LP addition (code changes and such required to happen before Stage 4)
-  - [ ] PlaceHolder for Additional proposals for Stage 3 Work (To be replaced before Stage 2 passes)
-- Define finalized ICPSwap position parameters
-  - [ ] Depending on stage 2 work might or might not need additional motion proposal for community approval.
-
-## Stage 4
-Goal: Complete XB0 goal of moving tokens out of Sonic pool and into ICPSwap pool
-- [ ] Create ICPSwap position or increase existing position depending on Stage 3 feedback/results
+  - [ ] Add validation method for decrease liquidity
+  - [ ] Deploy ok64 canister with new validation method
+  - [ ] Add generic function to call decrease lp
+  - [ ] Call decrease lp function
+  - [ ] Call withdraw function for Sneed
+  - [ ] Call withdraw function for ICP
